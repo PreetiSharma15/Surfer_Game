@@ -88,7 +88,7 @@ function draw() {
       gameState = END
     }
     if (coinGroup.isTouching(surfer1)) {
-      surfer1.velocityY += 0.5
+      //surfer1.velocityY += 0.5
       score++
 
       coinGroup[0].destroy();
